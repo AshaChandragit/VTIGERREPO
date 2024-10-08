@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+<test thread-count="2" parallel="tests" name="Test1">
+  <parameter name="BROWSER" value="Chrome"></parameter>
+    <classes>
+      <class name="vtigerUsingTestNG.ToCreateOrganisationUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.CreateContactWithOrganizationUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.CreateCampaignWithCloseDateUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.ToCreateContactWithSupportDateUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.ToCreateOrgWithIndustryTypeUsingTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="2" parallel="tests" name="Test2">
+  <parameter name="BROWSER" value="Edge"></parameter>
+    <classes>
+      <class name="vtigerUsingTestNG.ToCreateOrganisationUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.CreateContactWithOrganizationUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.CreateCampaignWithCloseDateUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.ToCreateContactWithSupportDateUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.ToCreateOrgWithIndustryTypeUsingTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="2" parallel="tests" name="Test3">
+  <parameter name="BROWSER" value="Firefox"></parameter>
+    <classes>
+      <class name="vtigerUsingTestNG.ToCreateOrganisationUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.CreateContactWithOrganizationUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.CreateCampaignWithCloseDateUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.ToCreateContactWithSupportDateUsingTestNGTest"/>
+      <class name="vtigerUsingTestNG.ToCreateOrgWithIndustryTypeUsingTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
